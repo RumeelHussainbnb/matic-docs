@@ -413,6 +413,10 @@ The `From` address should match your Metamask account address and the To address
 
 **Congratulations! You just deployed a smart contract to the Polygon chain.**
 
+### Step 17: Veriffy our contract
+
+Alchemy provides an explorer where you can find information about the methods deployed along with the smart contract, such as response time, HTTP status, error codes and others. It is a good environment to verify your contract and check whether the transactions went through. 
+
 To understand what’s going on under the hood, let’s navigate to the Explorer tab in our [Alchemy dashboard](https://dashboard.alchemyapi.io/explorer). If you have multiple Alchemy apps make sure to filter by app and select “Hello World”.
 
 ![img](/img/alchemy/calls.png)
