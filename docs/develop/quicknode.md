@@ -80,7 +80,7 @@ sudo pip3 install eth-brownie
 
 To check if Brownie was installed correctly, type brownie in your terminal/cmd, and it should give the following output:
 
-![](https://lh6.googleusercontent.com/PQBS5TChhoS-G-CT0uCa3LurtoxQ0iSj9BNs5jonUt0sJfyTGfnZfMZ0w00D__X7p0GWgzFVz44aUuCQOaWS_TEY1EJlYvLv8CpgGbXJrIIwiATDVa61xrkF43JSNF4N5kSz5hO1)
+![img](https://lh6.googleusercontent.com/PQBS5TChhoS-G-CT0uCa3LurtoxQ0iSj9BNs5jonUt0sJfyTGfnZfMZ0w00D__X7p0GWgzFVz44aUuCQOaWS_TEY1EJlYvLv8CpgGbXJrIIwiATDVa61xrkF43JSNF4N5kSz5hO1)
 
 To get the token mix, simply type the following in your terminal/cmd:
 
@@ -100,7 +100,7 @@ cd token
 
 Now, open the _token_ directory in your text editor. Under the ***contracts/*** folder you will find **Token.sol**, which is our main contract; you can write your own contracts or modify this. Under the ***scripts/*** folder, you will find ***token.py*** python script; this script will be used to deploy the contract, and modifications are needed based on contracts.
 
-![](https://lh3.googleusercontent.com/nlMPBzTL3dzag6Uszkzm242YOd60SnSRdQSkWeLMTL3GtXDyV85nxQBvlXrTBtykIBBHAtc2zQ476wIwRAw-SNr9yVHsqSMeSHssLfb7h197T-gulqnvzkmHEarBuzZ0fZBwyl3h)
+![img](https://lh3.googleusercontent.com/nlMPBzTL3dzag6Uszkzm242YOd60SnSRdQSkWeLMTL3GtXDyV85nxQBvlXrTBtykIBBHAtc2zQ476wIwRAw-SNr9yVHsqSMeSHssLfb7h197T-gulqnvzkmHEarBuzZ0fZBwyl3h)
 
 The contract is an ERC-20 contract; you can learn more about the ERC-20 standards and contracts in this [guide on ERC-20 tokens](https://www.quicknode.com/guides/solidity/how-to-create-and-deploy-an-erc20-token).
 
@@ -113,7 +113,7 @@ QuickNode has a global network of Polygon Mainnet and Mumbai testnet nodes, they
 
 Copy the HTTP URL, which will be needed in the next step.
 
-## Step 3: Network and account set up.
+## Step 3: Network and account setup
 --------------------------------------
 
 We need to set up our QuickNode endpoint with Brownie. To do so, type the following in your terminal/cmd:
@@ -135,7 +135,7 @@ brownie accounts generate testac
 
 This will generate an account along with a mnemonic phrase, save it offline. The name testac is the name for our account. You can choose any name that you would like.
 
-![](https://lh6.googleusercontent.com/a6n4IL_G4oenKG5WZYu9xTmSNLqa1ixlRGJpksoFjg5KIF2Z-lka_6pLufLgZGl9yK-wSvwDe5iCCJj1D2hCaPIkQU6nsKiAJg_AKw3jylndBd8AfDtvDstrehG8u3hgdm-KVCjK)
+![img](https://lh6.googleusercontent.com/a6n4IL_G4oenKG5WZYu9xTmSNLqa1ixlRGJpksoFjg5KIF2Z-lka_6pLufLgZGl9yK-wSvwDe5iCCJj1D2hCaPIkQU6nsKiAJg_AKw3jylndBd8AfDtvDstrehG8u3hgdm-KVCjK)
 
 :::note
 
@@ -152,7 +152,7 @@ We will need some test MATICs to pay for gas fees to deploy the smart contract.
 
 Copy your address of the account which we generated in the last step, paste it into the address field of [Polygon faucet](https://faucet.polygon.technology/), and click on submit. The faucet will send you 0.2 test MATIC.
 
-![](https://lh6.googleusercontent.com/kq173aYK_XB8DwuZjXXp2sot9X4enx9WXo-Xt8O93S-GohO5kx9p1iI2JQzL9wdAtiTrWfjiEodAsI_vcD1m1dUvp6koTfrKvnP4gOymP-JSDYpHVJKjWQXQ0ePNTj1MmEAJQ8Wo=s1600)
+![img](https://lh6.googleusercontent.com/kq173aYK_XB8DwuZjXXp2sot9X4enx9WXo-Xt8O93S-GohO5kx9p1iI2JQzL9wdAtiTrWfjiEodAsI_vcD1m1dUvp6koTfrKvnP4gOymP-JSDYpHVJKjWQXQ0ePNTj1MmEAJQ8Wo=s1600)
 
 ## Step 5: Deploying our contract
 --------------------
@@ -163,7 +163,7 @@ Before deploying the contract, we need to compile it using:
 brownie compile
 ```
 
-![](https://lh4.googleusercontent.com/AqxeplHn6FNPchw8EwgsyCkQuQhiqoEe8X7jUXLm8KKQvH3yCTRcUJ5j7cnU_eVntoRF0fbWXKda2Ad7Sr8KjjWJbdGRtXgDltdhb9nBeaqVoyaLvDUfVd3fTTEAFpJlwEHHByoI)
+![img](https://lh4.googleusercontent.com/AqxeplHn6FNPchw8EwgsyCkQuQhiqoEe8X7jUXLm8KKQvH3yCTRcUJ5j7cnU_eVntoRF0fbWXKda2Ad7Sr8KjjWJbdGRtXgDltdhb9nBeaqVoyaLvDUfVd3fTTEAFpJlwEHHByoI)
 
 Now open the **scripts/token.py** in your text editor, and make the following changes:
 
@@ -193,13 +193,17 @@ brownie run token.py --network matic_mumbai
 
 matic_mumbai is the name of the custom network which we created earlier. The prompt will ask you for the password which we set earlier while making the account. After running the above command, you must get the transaction hash, and Brownie will wait for the transaction to get confirmed. Once the transaction is confirmed, it will return the address at which our contract is deployed on the Polygon Mumbai testnet.
 
-![](https://lh4.googleusercontent.com/-5YsXvupHFSOf7p1apOy6RwhqD7hYAoj5E-sXBSZ4C0xwofMFJ2XZnuCcrGtqhr7srH1HDY-eHVXz8yGQxnsdxNgzFeb26sj22sjUXsqXQxa_9FvKbo1OmvQLbSEVGJdxCgDNkEe)
+![img](https://lh4.googleusercontent.com/-5YsXvupHFSOf7p1apOy6RwhqD7hYAoj5E-sXBSZ4C0xwofMFJ2XZnuCcrGtqhr7srH1HDY-eHVXz8yGQxnsdxNgzFeb26sj22sjUXsqXQxa_9FvKbo1OmvQLbSEVGJdxCgDNkEe)
 
 You can check out the deployed contract by copy-pasting the contract address at [Polygonscan Mumbai](https://mumbai.polygonscan.com/).
 
-![](https://lh5.googleusercontent.com/2cchxBugZcogWUHDWHvAp_xJif8ALdhLjrUaFgo6XZat5nm20U5PcGdGDqeX_5Jdt6w5SNnemOH8lnVGzHApLJ5ML6fHVS-spZx6BBEPb0eIUivMfPHI2AvPpTXUKCITt3g5NM3s)
+![img](https://lh5.googleusercontent.com/2cchxBugZcogWUHDWHvAp_xJif8ALdhLjrUaFgo6XZat5nm20U5PcGdGDqeX_5Jdt6w5SNnemOH8lnVGzHApLJ5ML6fHVS-spZx6BBEPb0eIUivMfPHI2AvPpTXUKCITt3g5NM3s)
 
-So this is how contracts are deployed Polygon using Brownie and QuickNode.
+## Step 6: Testing our contract
+
+Brownie also offers the option of testing smart contracts functionalities. It uses the `pytest` framework to easily generate unit tests. You can find more information about writing tests on Bronwnie [on their documentation](https://eth-brownie.readthedocs.io/en/latest/tests-pytest-intro.html#). 
+
+**So this is how contracts are deployed on Polygon using Brownie and QuickNode.**
 
 QuickNode, just like Polygon, has always had an education-first approach providing developer [guides](https://www.quicknode.com/guides?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [docs](https://www.quicknode.com/docs/polygon?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [tutorial videos](https://www.youtube.com/channel/UC3lhedwc0EISreYiYtQ-Gjg/videos) and a [community of #web3 developers](https://discord.gg/DkdgEqE) who are eager to help each other.
 
