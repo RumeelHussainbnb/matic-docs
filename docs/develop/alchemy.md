@@ -411,14 +411,10 @@ The `From` address should match your Metamask account address and the To address
 
 ![img](/img/alchemy/polygon-scan.png)
 
-**Congratulations! You just deployed a smart contract to the Polygon chain.**
-
 ### Step 17: Verify the contract
 
-Alchemy provides an explorer where you can find information about the methods deployed along with the smart contract, such as response time, HTTP status, error codes and others. It is a good environment to verify your contract and check whether the transactions went through. 
-
-To understand what’s going on under the hood, let’s navigate to the Explorer tab in our [Alchemy dashboard](https://dashboard.alchemyapi.io/explorer). If you have multiple Alchemy apps make sure to filter by app and select “Hello World”.
+Alchemy provides an [explorer](https://dashboard.alchemyapi.io/explorer) where you can find information about the methods deployed along with the smart contract, such as response time, HTTP status, error codes and others. It is a good environment to verify your contract and check whether the transactions went through. 
 
 ![img](/img/alchemy/calls.png)
 
-Here you’ll see a handful of JSON-RPC calls that Hardhat/Ethers made under the hood for us when we called the `.deploy()` function. Two important ones to call out here are [`eth_sendRawTransaction`](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth\_sendrawtransaction), which is the request to actually write our contract onto the Polygon chain, and [`eth_getTransactionByHash`](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc#eth\_gettransactionbyhash) which is a request to read information about our transaction given the hash (a typical pattern when sending transactions).
+**Congratulations! You just deployed a smart contract to the Polygon chain.**
