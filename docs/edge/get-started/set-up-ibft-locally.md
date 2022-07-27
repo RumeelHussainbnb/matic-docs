@@ -1,7 +1,7 @@
 ---
 id: set-up-ibft-locally
 title: Local Setup
-description: How to do the local setup for Polygon Edge.
+description: "Step-by-step local setup guide."
 keywords:
   - docs
   - polygon
@@ -117,6 +117,16 @@ Similarly, we construct the multiaddr for second bootnode as shown below
 ```
 /ip4/127.0.0.1/tcp/20001/p2p/16Uiu2HAmS9Nq4QAaEiogE4ieJFUYsoH28magT7wSvJPpfUGBj3Hq 
 ```
+
+:::info DNS hostnames instead of ips
+
+Polygon Edge supports using DNS hostnames for the nodes configuration. This is a very helpful feature for cloud based deployments, as the node's ip may change due to various reasons.
+
+The multiaddr format for the connection string while using DNS hostnames is as it follows:
+`/dns4/sample.hostname.com/tcp/<port>/p2p/nodeid`
+
+:::
+
 
 ## Step 3: Generate the genesis file with the 4 nodes as validators
 

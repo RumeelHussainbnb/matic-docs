@@ -2,7 +2,7 @@
 id: nightfall-wallet
 title: Nightfall Wallet
 sidebar: Nightfall Wallet
-description: Polygon Nightfall wallet guide
+description: "Polygon Nightfall wallet guide."
 keywords:
   - docs
   - matic

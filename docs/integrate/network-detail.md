@@ -1,7 +1,7 @@
 ---
 id: network-detail
 title: How to read Network Details?
-description: Build your next blockchain app on Polygon.
+description: "How to understand the JSON response to Network Details."
 keywords:
   - docs
   - matic

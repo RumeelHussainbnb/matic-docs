@@ -1,7 +1,7 @@
 ---
 id: enable-metrics
 title: Enable Prometheus metrics
-description: How to enable Prometheus metrics for Polygon Edge.
+description: "How to enable Prometheus metrics for Polygon Edge."
 keywords:
   - docs
   - polygon

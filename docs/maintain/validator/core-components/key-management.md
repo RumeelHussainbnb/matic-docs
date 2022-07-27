@@ -1,7 +1,7 @@
 ---
 id: key-management
 title: Key Management
-description: Each validator uses two keys to manage validator related activities on Polygon
+description: "Signer and owner keys management."
 keywords:
   - docs
   - polygon

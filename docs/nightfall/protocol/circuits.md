@@ -2,7 +2,7 @@
 id: circuits
 title: Circuits
 sidebar_label: Circuits
-description: Circuits on Nightfall
+description: "Types of Circuits on Nightfall"
 keywords:
   - docs
   - polygon

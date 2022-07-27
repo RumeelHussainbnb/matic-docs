@@ -1,7 +1,7 @@
 ---
 id: query-json-rpc
 title: Query JSON RPC endpoints
-description: How to use tools to query information and start the chain with a premined account.
+description: "Query data and start the chain with a premined account."
 keywords:
   - docs
   - polygon

@@ -2,7 +2,7 @@
 id: proposers-producers-selection
 title: Proposers & Producers Selection
 sidebar_label: Proposers & Producers
-description: Learn about proposer & block producer selection on Polygon
+description: "Proposer & block producer selection on Polygon."
 keywords:
   - docs
   - polygon

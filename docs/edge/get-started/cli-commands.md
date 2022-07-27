@@ -1,7 +1,7 @@
 ---
 id: cli-commands
 title: CLI Commands
-description: List of cli commands and command flags for Polygon Edge.
+description: "List of CLI commands and command flags for Polygon Edge."
 keywords:
   - docs
   - polygon

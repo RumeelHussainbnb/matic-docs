@@ -1,7 +1,7 @@
 ---
 id: manage-private-keys
 title: Manage private keys
-description: How to manage Polygon Edge's private keys and what types of keys there are.
+description: "How to manage private keys and what types of keys there are."
 keywords:
   - docs
   - polygon

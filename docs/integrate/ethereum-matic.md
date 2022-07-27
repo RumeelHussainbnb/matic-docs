@@ -17,7 +17,7 @@ Plasma Secured Solution to transfer your assets from Ethereum to Polygon and vic
 3. [(Matic → Ethereum)](/docs/develop/maticjs/withdraw): Withdraw assets from Matic to root chain. -->
 
 ## Flow
-Here is the Flow with the deployement of your contracts on Polygon and Support for Ethereum↔Polygon. 
+Here is the Flow with the deployment of your contracts on Polygon and Support for Ethereum↔Polygon. 
 
 1. User deploys ERC-20 token to Ethereum - XToken
 
@@ -31,7 +31,7 @@ Token_Symbol-> "X"<br/>
 Token_Decimals-> "18"<br/><br/>
 Requesting you to Map these tokens to Polygon Testnet Version.<br/>
 
-We will deploy a Child Contract for you on Polygon which can be flexible based on the requirements and Mapped to your tokens Ethereum ↔ Polygon.(Deployement on Polygon requires it native token Polygon, which can be deposit from Ethereum to Polygon or can be bought at Secondary Market Place.)
+We will deploy a Child Contract for you on Polygon which can be flexible based on the requirements and mapped to your tokens Ethereum ↔ Polygon.(Deployment on Polygon requires it native token Polygon, which can be deposited from Ethereum to Polygon or can be bought at Secondary Market Place.)
 
 3. User can mint the Xtokens and Transfer on Ethereum. For example let's say 100XToken are mint and then transfer to other another account.
 
@@ -39,9 +39,9 @@ We will deploy a Child Contract for you on Polygon which can be flexible based o
 
 5. Now 100XTokens are available on Polygon Chain at the same address.
 
-6. You can transfer 50 XToken from YourAddress to NewAddress. Again for transactions on Polygon similiar to ethereum, Polygon  uses it own Native token.
+6. You can transfer 50 XToken from YourAddress to NewAddress. Again for transactions on Polygon similar to Ethereum, Polygon uses it own Native token.
 
-7. If the users want to get back these Xtoken on Etheruem Chain, then call StartWithdraw which will withdraw from childTokenContract and Burn these tokens on Polygon Chain. To avoid any bad participation, A set of validation will take place. Once it is done the tokens will be available at Ethereum Chain.
+7. If the users want to get back these Xtoken on Ethereum Chain, then call StartWithdraw which will withdraw from childTokenContract and Burn these tokens on Polygon Chain. To avoid any bad participation, A set of validation will take place. Once it is done the tokens will be available at Ethereum Chain.
 
 8. Call processExits() to receive those tokens back to your EOA or your account address.
 

@@ -1,7 +1,7 @@
 ---
 id: bor-chain
 title: Bor Chain
-description: Learn what the Bor node is on Polygon.
+description: "Polygon network block producer."
 keywords:
   - docs
   - polygon

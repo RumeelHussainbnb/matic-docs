@@ -1,7 +1,7 @@
 ---
 id: transaction-fees
 title: Transaction Fees
-description: Learn how transaction fees get distributed among all validators on the Heimdall layer.
+description: "Distribution of fees among all validators on Heimdall."
 keywords:
   - docs
   - polygon

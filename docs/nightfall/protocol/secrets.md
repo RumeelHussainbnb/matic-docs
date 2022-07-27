@@ -2,7 +2,7 @@
 id: secrets
 title: In Band Secret Distribution
 sidebar_label: In Band Secret Distribution
-description: In Band Secret Distribution
+description: "A solution to encrypt secrets and ensure their decryption."
 keywords:
   - docs
   - polygon

@@ -1,7 +1,7 @@
 ---
 id: set-up-hashicorp-vault
 title: Set up Hashicorp Vault
-description: Instructions on how to setup the Hashicorp Vault for Polygon Edge.
+description: "Set up the Hashicorp Vault for Polygon Edge."
 keywords:
   - docs
   - polygon

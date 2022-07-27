@@ -1,7 +1,7 @@
 ---
 id: validator-commission-operations
 title: Commission Operations
-description: Learn how to set up and change your validator commission on the Polygon Network.
+description: "Set up and change your validator commission."
 keywords:
   - docs
   - matic

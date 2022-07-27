@@ -2,7 +2,7 @@
 id: liquid-delegation
 title: Liquid Delegation
 sidebar_label: Liquid Delegation
-description: Learn about how Polygon uses liquid delegation to maintain the network
+description: "How Polygon uses liquid delegation to maintain the network."
 keywords:
   - docs
   - polygon

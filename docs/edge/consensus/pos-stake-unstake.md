@@ -1,7 +1,7 @@
 ---
 id: pos-stake-unstake
 title: Set up and use Proof of Stake (PoS)
-description: How to stake, unstake and other staking related instructions.
+description: "Stake, unstake and other staking-related instructions."
 keywords:
   - docs
   - polygon

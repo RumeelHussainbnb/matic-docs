@@ -2,7 +2,7 @@
 id: overview 
 title: Polygon Edge
 sidebar_label: Overview
-description: An introduction to what Polygon Edge is.
+description: "An introduction to Polygon Edge."
 keywords:
   - docs
   - polygon

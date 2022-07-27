@@ -1,7 +1,7 @@
 ---
 id: architecture
 title: Architecture
-description: The Matic network is broadly divided into 3 layers.
+description: Ethereum, Heimdall and Bor layers.
 keywords:
   - docs
   - matic

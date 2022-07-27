@@ -1,7 +1,7 @@
 ---
 id: query-operator-info
 title: Query operator information
-description: How to query operator information .
+description: "How to query operator information."
 keywords:
   - docs
   - polygon

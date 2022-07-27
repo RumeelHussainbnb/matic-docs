@@ -1,7 +1,7 @@
 ---
 id: network
 title: Networks
-description: Build your next blockchain app on Polygon.
+description: Current Testnet and Mainnet status and information.
 keywords:
   - docs
   - matic

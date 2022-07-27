@@ -1,7 +1,7 @@
 ---
 id: validator-staking-operations
 title: Stake on Polygon
-description: Learn how to stake as a validator on the Polygon Network
+description: "Learn how to stake as a validator on the Polygon Network."
 keywords:
   - docs
   - matic

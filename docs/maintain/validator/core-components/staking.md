@@ -2,7 +2,7 @@
 id: staking
 title: Staking
 sidebar_label: Staking
-description: Learn how to stake, unstake, and restake as a validator on the Polygon Network.
+description: "Stake, unstake, and restake as a validator."
 keywords:
   - docs
   - matic

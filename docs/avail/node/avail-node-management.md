@@ -2,7 +2,7 @@
 id: avail-node-management
 title: Run an Avail Node
 sidebar_label: Run an Avail node
-description: Learn about running an Avail node
+description: "Learn about running an Avail node."
 keywords:
   - docs
   - polygon

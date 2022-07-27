@@ -2,7 +2,7 @@
 id: contracts
 title: Smart Contracts
 sidebar_label: Smart Contracts
-description: Smart Contracts on Nightfall
+description: "Shield, proposers, challenges and Merkle Tree Computations."
 keywords:
   - docs
   - polygon

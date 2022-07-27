@@ -2,7 +2,7 @@
 id: actors
 title: Actors
 sidebar_label: Actors
-description: Actors on Nightfall
+description: "Types of Actors on Nightfall"
 keywords:
   - docs
   - polygon

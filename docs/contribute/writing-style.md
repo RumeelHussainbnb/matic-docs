@@ -24,7 +24,7 @@ and consistent. The Polygon team treats the Polygon Wiki as an official Docs pro
 
 We believe one of the things that makes Polygon special is its coherent design and we 
 seek to retain this defining characteristic. The Polygon team treats the Polygon Wiki 
-as an official Docs product.From the outset we defined some guidelines to ensure new 
+as an official Docs product. From the outset we defined some guidelines to ensure new 
 contributions only ever enhance the overall project:
 
 - **Quality**: Code in the Polygon project should meet the style guidelines, with 
@@ -46,6 +46,47 @@ The Style guide takes motivation from the following style manuals:
 - [Google's Style Guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
 - [The Oxford Style Manual](https://global.oup.com/academic/product/new-oxford-style-manual-9780198767251?cc=nl&lang=en&)
 - [The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)
+
+### Static-site generator
+
+The Wiki is built using [Docusaurus](https://docusaurus.io/), a static-site generator for
+building documentation sites in markdown. The Wiki follows the following metadata
+template for its markdown files and should be adpated for each new document:
+
+```
+---
+id: wiki-maintainers
+title: Wiki Maintainers
+sidebar_label: Maintainers
+description: A list of Polygon Wiki maintainers
+keywords:
+  - docs
+  - matic
+  - polygon
+  - wiki
+  - docs
+  - maintainers
+  - contributors
+image: https://matic.network/banners/matic-network-16x9.png
+slug: community-maintainers
+---
+```
+
+There are some important aspects to consider when writing the metadata for a markdown file:
+- We ask contributors to use a **unique id**; avoid **only** using generic words or sentences like "Introduction" or "Overview". 
+- The **title** is the sentence used at the beginning of the article, "General Writing Guidelines" for this article. So, it is not necessary to add an H1/H2 header to introduce each article. Instead, use this **title** from the metadata.
+- The **description** can not be too lengthy, since it is used on the index tiles which has a limitation for the number of characters. For example, the description "Blockchain is an immutable ledger for recording transactions" for the *basics-blockchain.md* appears on an index tile as such: 
+![img](/img/contribute/index-tile.png)
+
+  The **description** then should have **up to 60 characters**, considering spaces between characters.
+- Keywords are important to increase SEO and describe the article. Try to aim for at least five keywords.
+
+:::note
+
+Please see the 
+[official metadata documentation](https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-content-docs#markdown-front-matter) for more details.
+
+:::
 
 ### Share the experience with the reader
 
@@ -142,7 +183,7 @@ structure, parameters, and return values for each function or method in the API.
 
 ## API documentation
 
-Conisder the following when documentating an API:
+Consider the following when documenting an API:
 
 * A solid introduction that provides a starting point.
 * A clear description of the call or request. Describe what the endpoint does.

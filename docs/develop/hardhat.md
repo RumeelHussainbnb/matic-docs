@@ -24,7 +24,7 @@ To create your Hardhat project run `npx hardhat` in your project folder
 Let’s create the sample project and go through these steps to try out the sample task and compile, test and deploy the sample contract.
 
 
-The sample project will ask you to install hardhat-waffle and hardhat-ethers.You can learn more about it [in this guide](https://hardhat.org/getting-started/#quick-start)
+The sample project will ask you to install hardhat-waffle and hardhat-ethers. You can learn more about it [in this guide](https://hardhat.org/getting-started/#quick-start)
 
 ## **hardhat-config**
 
@@ -78,7 +78,7 @@ Run this command in root of the project directory:
 $ npx hardhat run scripts/sample-script.js --network matic
 ```
 
-Contract will be deployed on Matic's Mumbai Testnet, it look like this:
+Contract will be deployed on Matic's Mumbai Testnet, it looks like this:
 
 ```shell
 Compilation finished successfully

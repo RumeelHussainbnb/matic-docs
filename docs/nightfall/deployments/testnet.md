@@ -2,7 +2,7 @@
 id: testnet
 title: Testnet
 sidebar_label: Testnet
-description: Useful information for Nightfall's testnet
+description: "Tools, adresses and useful links for testnet deployment."
 keywords:
   - docs
   - polygon

@@ -27,7 +27,7 @@ Wiki. You may choose to contribute a tutorial on a topic of your choosing.
   appropriate. Give background information and further context when possible.
 * For configuration and implementation steps, be specific. 
 * Please try your best to add supporting imagery, icons, or screenshots that 
-  compliement the written content. 
+  complement the written content. 
   > The documentation team would also be happy to work with you on creating diagrams.
 * Remember the audience you are writing for. If the material has a certain difficulty 
   level it should be mentioned in the tutorial. 
@@ -39,10 +39,10 @@ Wiki. You may choose to contribute a tutorial on a topic of your choosing.
 
 If you notice that the current tutorials on the Polygon
 Wiki do not follow this template, it is because the documentation team
-decided to implement a standard so the tutorial flow is consistent across
+decided to implement a standard, so the tutorial flow is consistent across
 all tutorials. The team is working on updating these tutorials
 to resemble this template. If you are interested, you can also update an 
-exisiting tutorial to restructure it.
+existing tutorial to restructure it.
 
 :::
 
@@ -80,7 +80,7 @@ Outline the learning outcomes.
 
 Mention prerequisites and what the user should 
 already be familiar with. Link the necessary documentation for areas
-that the user should already be knowledgable about.
+that the user should already be knowledgeable about.
 
 :::note Example
 

@@ -1,7 +1,7 @@
 ---
 id: change-signer-address
 title: Change Your Signer Address
-description: Learn how to change the signer address of your validator on the Polygon Network.
+description: "Change the signer address of your validator."
 keywords:
   - docs
   - matic

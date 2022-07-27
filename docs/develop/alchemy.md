@@ -72,7 +72,7 @@ To get your customer Polygon RPC URL from Alchemy, go to your "Hello World" app 
 
 You can download and create a Metamask account for free [here](https://metamask.io/download.html). Once you've created an account, follow these steps to set up the Polygon network on your wallet.
 
-1. Select “Settings” from the drop down menu on the top right corner of your Metamask wallet.
+1. Select “Settings” from the drop-down menu in the top right corner of your Metamask wallet.
 2. Select “Networks” from the menu to the left.
 3. Connect your wallet to the Mumbai Testnet using the following parameters.
 
@@ -97,7 +97,7 @@ You will see the testnet tokens in your MetaMask account soon after.
 
 ### Step 5: Check your Balance
 
-To double check our balance is there, let’s make an [eth\_getBalance](https://docs.alchemy.com/alchemy/apis/polygon-api/eth_getbalance) request using [Alchemy’s composer tool](https://composer.alchemyapi.io/). Select "Polygon" as the chain, "Polygon Mumbai" as the network, "eth_getBalance" as the method, and input your address. This will return the amount of MATIC in our wallet. Check out [this video](https://youtu.be/r6sjRxBZJuU) for instructions on how to use the composer tool.
+To double-check our balance is there, let’s make an [eth\_getBalance](https://docs.alchemy.com/alchemy/apis/polygon-api/eth_getbalance) request using [Alchemy’s composer tool](https://composer.alchemyapi.io/). Select "Polygon" as the chain, "Polygon Mumbai" as the network, "eth_getBalance" as the method, and input your address. This will return the amount of MATIC in our wallet. Check out [this video](https://youtu.be/r6sjRxBZJuU) for instructions on how to use the composer tool.
 
 ![img](/img/alchemy/get-balance.png)
 
@@ -301,7 +301,7 @@ To actually connect these to our code, we’ll reference these variables in our 
 
 ### Step 12: Install Ethers.js
 
-Ethers.js is a library that makes it easier to interact and make requests to Ethereum by wrapping [standard JSON-RPC methods](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc) with more user friendly methods.
+Ethers.js is a library that makes it easier to interact and make requests to Ethereum by wrapping [standard JSON-RPC methods](https://docs.alchemyapi.io/alchemy/documentation/alchemy-api-reference/json-rpc) with more user-friendly methods.
 
 Hardhat makes it easy to integrate [plugins](https://hardhat.org/plugins/) for additional tooling and extended functionality. We’ll be taking advantage of the [Ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html) for contract deployment. [Ethers.js](https://github.com/ethers-io/ethers.js/) has useful contract deployment methods.
 
@@ -358,7 +358,7 @@ You might get a warning about `SPDX license identifier not provided in source fi
 
 Now that our contract is written and our configuration file is good to go, it’s time to write our contract deploy script.
 
-Navigate to the `scripts/` folder and create a new file called `deploy.js` , adding the following contents to it:
+Navigate to the `scripts/` folder and create a new file called `deploy.js`, adding the following contents to it:
 
 ```javascript
 async function main() {

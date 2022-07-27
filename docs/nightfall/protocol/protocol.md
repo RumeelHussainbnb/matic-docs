@@ -2,7 +2,7 @@
 id: protocol
 title: Nightfall Protocol
 sidebar_label: Nightfall Protocol
-description: Nightfall Protocol
+description: "The Nightfall Process."
 keywords:
   - docs
   - polygon

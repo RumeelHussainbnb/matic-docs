@@ -1,6 +1,6 @@
 ---
 id: full-node-binaries
-title: Full Node Binaries
+title: Run a full node with Binaries
 description: Deploy a Full Node using binaries.
 keywords:
   - docs
@@ -30,7 +30,7 @@ For the system requirements, see [Minimum Technical Requirements](http://localho
 
 Steps in this guide involve waiting for the Heimdall and Bor services to fully sync. This process takes several days to complete.
 
-Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
+Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [<ins>Snapshot Instructions for Heimdall and Bor</ins>](https://forum.polygon.technology/t/snapshot-instructions-for-heimdall-and-bor/9233).
 
 For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 
@@ -303,7 +303,7 @@ For the system requirements, see [Minimum Technical Requirements](https://docs.p
 
 Steps in this guide involve waiting for the Heimdall and Bor services to fully sync. This process takes several days to complete.
 
-Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
+Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [<ins>Snapshot Instructions for Heimdall and Bor</ins>](https://forum.polygon.technology/t/snapshot-instructions-for-heimdall-and-bor/9233).
 
 For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 
@@ -314,7 +314,7 @@ For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.ma
 
 - One machine is required.
 - `build-essential` installed on the Full Node machine.
-- To install: 
+- To install:
 
 ```bash
 sudo apt-get install build-essential

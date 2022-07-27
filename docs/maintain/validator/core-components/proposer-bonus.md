@@ -1,7 +1,7 @@
 ---
 id: proposer-bonus
 title: Proposer Bonus
-description: Learn about the additional incentive of being a validator on the Polygon Network.
+description: "Additional incentive of being a validator."
 keywords:
   - docs
   - polygon

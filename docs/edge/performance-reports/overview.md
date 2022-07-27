@@ -1,7 +1,7 @@
 ---
 id: overview 
 title: Overview
-description: Introduction to Polygon Edge testing .
+description: "Introduction to Polygon Edge testing."
 keywords:
   - docs
   - polygon
@@ -13,9 +13,9 @@ keywords:
 
 | Type | Value | Link to test |
 | ---- | ----- | ------------ |
-| Regular Transfers | 689 tps | [March 23rd 2022](test-history/test-2022-03-23.md) |
-| ERC-20 Transfers | 500 tps | [March 23rd 2022](test-history/test-2022-03-23.md) |
-| NFT Minting | 487 tps | [March 23rd 2022](test-history/test-2022-03-23.md) |
+| Regular Transfers | 1428 tps | [July 4th 2022](test-history/test-2022-07-04.md#results-of-eoa-to-eoa-transfers) |
+| ERC-20 Transfers | 1111 tps | [July 4th 2022](test-history/test-2022-07-04.md#results-of-erc20-token-transfers) |
+| NFT Minting | 714 tps | [July 4th 2022](test-history/test-2022-07-04.md#results-of-erc721-token-minting) |
 
 --- 
 

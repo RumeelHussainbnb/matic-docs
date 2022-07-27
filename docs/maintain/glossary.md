@@ -1,7 +1,7 @@
 ---
 id: glossary
 title: Glossary
-description: Key Polygon terms
+description: "Key Polygon terms."
 keywords:
   - docs
   - matic

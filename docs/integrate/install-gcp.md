@@ -2,7 +2,7 @@
 id: install-gcp
 title: Deploy Polygon nodes in Google Cloud
 sidebar_label: Google Cloud Deployment
-description: Simple deployment of your Polygon nodes in Google Cloud
+description: "Simple deployment of your Polygon nodes in Google Cloud."
 keywords:
 - docs
 - polygon

@@ -1,7 +1,7 @@
 ---
 id: validator-node-system-requirements
 title: Node System Requirements
-description: The system requirements to run a validator node on the Polygon Network.
+description: "System requirements to run a validator node."
 keywords:
   - docs
   - matic

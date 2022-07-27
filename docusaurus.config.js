@@ -204,17 +204,6 @@ module.exports = {
     },
     copyright: `Copyright © ${new Date().getFullYear()} Polygon Technology`,
     },
-    announcementBar: {
-      id: "support_us",
-      content:
-        '🎉 Polygon Mainnet <a target="_blank" rel="noopener noreferrer" href="/docs/develop/network-details/network"/>is open for developers 🎉! ',
-      backgroundColor: "#8247e5", // Defaults to `#fff`
-      textColor: "#fff", // Defaults to `#000`
-    },
-    // googleAnalytics: {
-    //   trackingID: "UA-141789564-1",
-    //   anonymizeIP: true,
-    // },
     image: "https://matic.network/banners/matic-network-16x9.png",
     prism: {
       theme: require("prism-react-renderer/themes/github"),
@@ -228,14 +217,6 @@ module.exports = {
       apiKey: "757c19b23127e9c6959da7f13b71cfab",
       contextualSearch: false,
       algoliaOptions: {},
-    },
-    announcementBar: {
-      id: 'doc revamp message',
-      content:
-        'The team is revamping the docs site.',
-      backgroundColor: '#AA84ED',
-      textColor: '#0A0B0D',
-      isCloseable: true,
     },
     navbar: {
       hideOnScroll: true,

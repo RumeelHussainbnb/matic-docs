@@ -1,7 +1,7 @@
 ---
 id: known-issues
 title: Known Issues & Errors
-description: Knowledge Base
+description: "Knowledge Base of common errors."
 keywords:
   - docs
   - polygon

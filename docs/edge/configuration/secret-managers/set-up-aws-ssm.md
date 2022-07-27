@@ -1,7 +1,7 @@
 ---
 id: set-up-aws-ssm
 title: Set up AWS SSM (Systems Manager)
-description: Instructions on how to setup AWS SSM (Systems Manager) for Polygon Edge.
+description: "Set up AWS SSM (Systems Manager) for Polygon Edge."
 keywords:
   - docs
   - polygon

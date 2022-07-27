@@ -1,7 +1,7 @@
 ---
 id: derivatives
 title: Derivatives
-description: Learn how delegation through validator shares works on the Polygon Network.
+description: "Delegation through validator shares."
 keywords:
   - docs
   - polygon

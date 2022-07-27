@@ -1,7 +1,7 @@
 ---
 id: set-up-gcp-secrets-manager
 title: Set up GCP Secrets Manager
-description: Instructions on how to setup GCP Secrets Manager for Polygon Edge.
+description: "Set up GCP Secrets Manager for Polygon Edge."
 keywords:
   - docs
   - polygon

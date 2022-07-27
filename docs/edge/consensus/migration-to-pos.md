@@ -1,7 +1,7 @@
 ---
 id: migration-to-pos
 title: Migration from PoA to PoS
-description: How to migrate from PoA to PoS IBFT mode, and vice versa.
+description: "How to migrate from PoA to PoS IBFT mode, and vice versa."
 keywords:
   - docs
   - polygon

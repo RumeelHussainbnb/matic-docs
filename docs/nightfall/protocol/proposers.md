@@ -2,7 +2,7 @@
 id: proposers
 title: Proposers
 sidebar_label: Proposers
-description: Proposers on Nightfall
+description: "Proposers overview and addresses."
 keywords:
   - docs
   - polygon

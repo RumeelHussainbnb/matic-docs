@@ -1,7 +1,7 @@
 ---
 id: state-sync-mechanism
 title: State Sync Mechanism
-description: Learn about the state sync mechanism on Polygon to natively read Ethereum data.
+description: "State sync mechanism to natively read Ethereum data."
 keywords:
   - docs
   - matic

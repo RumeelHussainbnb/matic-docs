@@ -1,7 +1,7 @@
 ---
 id: propose-new-feature
 title: Propose a new feature
-description: PR template and instructions for proposing a new feature or fix for Polygon Edge.
+description: "PR template and instructions for proposing a new feature."
 keywords:
   - docs
   - polygon

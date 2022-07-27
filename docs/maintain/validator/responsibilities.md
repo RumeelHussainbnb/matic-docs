@@ -1,7 +1,7 @@
 ---
 id: responsibilities
 title: Responsibilities
-description: Overview of the responsibilities of being a validator on the Polygon Network.
+description: "The responsibilities of being a validator on the Polygon Network."
 keywords:
   - docs
   - matic

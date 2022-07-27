@@ -2,7 +2,7 @@
 id: port-management
 title: Technical infrastructure for nodes
 sidebar_label: Port Management
-description: Build your next blockchain app on Polygon.
+description: "List of default ports used across Polygon nodes."
 keywords:
   - docs
   - polygon

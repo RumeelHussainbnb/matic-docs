@@ -1,7 +1,7 @@
 ---
 id: set-up-ibft-on-the-cloud
 title: Cloud Setup
-description: How to do the cloud setup for Polygon Edge.
+description: "Step-by-step cloud setup guide."
 keywords:
   - docs
   - polygon
@@ -126,6 +126,14 @@ Similarly, we construct multiaddr for the second bootnode as shown below
 ```
 /ip4/<public_or_private_ip>/tcp/1478/p2p/16Uiu2HAmS9Nq4QAaEiogE4ieJFUYsoH28magT7wSvJPpfUGBj3Hq 
 ```
+:::info DNS hostnames instead of ips
+
+Polygon Edge supports using DNS hostnames for the nodes configuration. This is a very helpful feature for cloud based deployments, as the node's ip may change due to various reasons.
+
+The multiaddr format for the connection string while using DNS hostnames is as it follows:
+`/dns4/sample.hostname.com/tcp/<port>/p2p/nodeid`
+
+:::
 
 ## Step 3: Generate the genesis file with the 4 nodes as validators
 

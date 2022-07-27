@@ -1,7 +1,6 @@
 ---
 id: full-node-deployment
-
-title: Full Node Ansible
+title: Run a full node with Ansible
 description: Deploy a Full Node using Ansible.
 
 keywords:

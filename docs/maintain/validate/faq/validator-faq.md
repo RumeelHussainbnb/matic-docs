@@ -1,7 +1,7 @@
 ---
 id: validator-faq
 title: Validator FAQ
-description: Common questions on the validator operations on the Polygon network.
+description: "Common questions on validator operations."
 keywords:
   - docs
   - matic

@@ -1,7 +1,7 @@
 ---
 id: poa
 title: Proof of Authority (PoA)
-description: Explanation and instructions regarding Proof of Autority (PoA).
+description: "Explanation and instructions regarding Proof of Autority."
 keywords:
   - docs
   - polygon

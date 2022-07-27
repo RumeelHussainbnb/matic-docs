@@ -2,7 +2,7 @@
 id: challengers
 title: Challengers
 sidebar_label: Challengers
-description: Challengers on Nightfall
+description: "Challengers on Nightfall."
 keywords:
   - docs
   - polygon

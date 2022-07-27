@@ -1,7 +1,7 @@
 ---
 id: run-validator-ansible
 title: Run a Validator Node with Ansible
-description: Use Ansible to set up your validator node on the Polygon Network.
+description: "Use Ansible to set up your validator node."
 keywords:
   - docs
   - matic
@@ -17,7 +17,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::tip
 Steps in this guide involve waiting for the **Heimdall** and **Bor** services to fully sync.
-This process takes several days to complete. Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](../../develop/network-details/snapshot-instructions-heimdall-bor).
+This process takes several days to complete. Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [<ins>Snapshot Instructions for Heimdall and Bor</ins>](../../develop/network-details/snapshot-instructions-heimdall-bor).
 
 For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 
@@ -247,6 +247,17 @@ Change the following:
 
 Save the changes in `config.toml`.
 
+Open for editing `vi ~/.heimdalld/config/heimdall-config.toml`.
+
+In `heimdall-config.toml`, change your RPC endpoint to point to a fully synced Ethereum mainnet node:
+
+`eth_rpc_url = <insert Infura or any full node RPC URL to Ethereum>` 
+
+For example: `eth_rpc_url = "https://nd-123-456-789.p2pify.com/60f2a23810ba11c827d3da642802412a"`
+
+
+Save the changes in `heimdall-config.toml`.
+
 ### Configure the Bor Service
 
 Open for editing `vi ~/node/bor/start.sh`.
@@ -298,7 +309,7 @@ You will first start the Heimdall service. Once the Heimdall service syncs, you 
 
 The Heimdall service takes several days to fully sync from scratch.
 
-Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
+Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [<ins>Snapshot Instructions for Heimdall and Bor</ins>](https://forum.polygon.technology/t/snapshot-instructions-for-heimdall-and-bor/9233).
 
 For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 
@@ -464,7 +475,7 @@ heimdallcli generate-validatorkey ETHEREUM_PRIVATE_KEY
 ```
 
 :::note
-* ETHEREUM_PRIVATE_KEY — your Ethereum wallet address.
+* ETHEREUM_PRIVATE_KEY — your Ethereum wallet’s private key.
 :::
 
 This will generate `priv_validator_key.json`. Move the generated JSON file to the Heimdall configuration directory:
@@ -526,7 +537,7 @@ You will now start the Heimdall service on the validator machine. Once the Heimd
 
 The Heimdall service takes several days to fully sync from scratch.
 
-Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [Snapshot Instructions for Heimdall and Bor](https://forum.matic.network/t/snapshot-instructions-for-heimdall-and-bor/2278).
+Alternatively, you can use a maintained snapshot, which will reduce the sync time to a few hours. For detailed instructions, see [<ins>Snapshot Instructions for Heimdall and Bor</ins>](https://forum.polygon.technology/t/snapshot-instructions-for-heimdall-and-bor/9233).
 
 For snapshot download links, see [Polygon Chains Snapshots](https://snapshots.matic.today/).
 

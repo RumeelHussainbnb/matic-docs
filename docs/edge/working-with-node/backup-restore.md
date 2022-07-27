@@ -1,7 +1,7 @@
 ---
 id: backup-restore
 title: Backup/restore node instance
-description: How to back up and restore a Polygon Edge node instance.
+description: "How to back up and restore a Polygon Edge node instance."
 keywords:
   - docs
   - polygon

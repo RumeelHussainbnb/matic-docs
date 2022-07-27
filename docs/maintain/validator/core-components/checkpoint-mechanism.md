@@ -2,7 +2,7 @@
 id: checkpoint-mechanism
 title: Checkpoint Mechanism
 sidebar_label: Checkpoints
-description: Learn how checkpointing the system state to the Ethereum mainnet works on the Polygon Network.
+description: "Checkpointing the system state to the Ethereum mainnet."
 keywords:
   - docs
   - matic

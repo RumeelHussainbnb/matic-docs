@@ -1,7 +1,7 @@
 ---
 id: how-to
 title: Pre-requisites & How Tos
-description: Knowledge Base
+description: "Polygon validate tutorials."
 keywords:
   - docs
   - polygon

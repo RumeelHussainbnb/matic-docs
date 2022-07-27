@@ -48,4 +48,4 @@ Check out the forum and join the discussion on Discord.
 * [Forum](https://forum.polygon.technology)
 * [Discord](https://discord.gg/polygon)
 
-See also the [Immunefi  Bug Bountry Program](https://immunefi.com/bounty/polygon/).
+See also the [Immunefi Bug Bounty Program](https://immunefi.com/bounty/polygon/).

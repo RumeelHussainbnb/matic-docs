@@ -1,7 +1,7 @@
 ---
 id: heimdall-chain
 title: Heimdall Chain
-description: Heimdall is the proof-of-stake verifier layer on the Polygon Network.
+description: "Proof-of-stake verifier layer on the Polygon Network."
 keywords:
   - docs
   - polygon

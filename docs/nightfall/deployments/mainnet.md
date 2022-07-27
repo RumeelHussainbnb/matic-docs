@@ -2,7 +2,7 @@
 id: mainnet
 title: Mainnet
 sidebar_label: Mainnet
-description: Useful information for Nightfall's mainnet
+description: "Tools, adresses and useful links for mainnet deployment."
 keywords:
   - docs
   - polygon

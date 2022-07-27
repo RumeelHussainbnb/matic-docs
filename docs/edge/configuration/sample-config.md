@@ -1,7 +1,7 @@
 ---
 id: sample-config
 title: Server Config File
-description: How to start the Polygon Edge server using a configuration file instead of flags.
+description: "Start the Polygon Edge server using a configuration file."
 keywords:
   - docs
   - polygon

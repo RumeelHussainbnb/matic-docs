@@ -2,7 +2,7 @@
 id: commitments
 title: Commitment Selection
 sidebar_label: Commitment Selection
-description: Commitment Selection on Nightfall
+description: "Single and double transfer."
 keywords:
   - docs
   - polygon
