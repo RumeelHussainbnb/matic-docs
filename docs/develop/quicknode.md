@@ -80,7 +80,7 @@ sudo pip3 install eth-brownie
 
 To check if Brownie was installed correctly, type brownie in your terminal/cmd, and it should give the following output:
 
-![img](https://lh6.googleusercontent.com/PQBS5TChhoS-G-CT0uCa3LurtoxQ0iSj9BNs5jonUt0sJfyTGfnZfMZ0w00D__X7p0GWgzFVz44aUuCQOaWS_TEY1EJlYvLv8CpgGbXJrIIwiATDVa61xrkF43JSNF4N5kSz5hO1)
+![img](/img/quicknode/brownie-commands.png)
 
 To get the token mix, simply type the following in your terminal/cmd:
 
@@ -100,7 +100,7 @@ cd token
 
 Now, open the _token_ directory in your text editor. Under the ***contracts/*** folder you will find **Token.sol**, which is our main contract; you can write your own contracts or modify this. Under the ***scripts/*** folder, you will find ***token.py*** python script; this script will be used to deploy the contract, and modifications are needed based on contracts.
 
-![img](https://lh3.googleusercontent.com/nlMPBzTL3dzag6Uszkzm242YOd60SnSRdQSkWeLMTL3GtXDyV85nxQBvlXrTBtykIBBHAtc2zQ476wIwRAw-SNr9yVHsqSMeSHssLfb7h197T-gulqnvzkmHEarBuzZ0fZBwyl3h)
+![img](/img/quicknode/token-sol.png)
 
 The contract is an ERC-20 contract; you can learn more about the ERC-20 standards and contracts in this [guide on ERC-20 tokens](https://www.quicknode.com/guides/solidity/how-to-create-and-deploy-an-erc20-token).
 
@@ -135,7 +135,7 @@ brownie accounts generate testac
 
 This will generate an account along with a mnemonic phrase, save it offline. The name testac is the name for our account. You can choose any name that you would like.
 
-![img](https://lh6.googleusercontent.com/a6n4IL_G4oenKG5WZYu9xTmSNLqa1ixlRGJpksoFjg5KIF2Z-lka_6pLufLgZGl9yK-wSvwDe5iCCJj1D2hCaPIkQU6nsKiAJg_AKw3jylndBd8AfDtvDstrehG8u3hgdm-KVCjK)
+![img](/img/quicknode/new-account.png)
 
 :::note
 
@@ -152,7 +152,7 @@ We will need some test MATICs to pay for gas fees to deploy the smart contract.
 
 Copy your address of the account which we generated in the last step, paste it into the address field of [Polygon faucet](https://faucet.polygon.technology/), and click on submit. The faucet will send you 0.2 test MATIC.
 
-![img](https://lh6.googleusercontent.com/kq173aYK_XB8DwuZjXXp2sot9X4enx9WXo-Xt8O93S-GohO5kx9p1iI2JQzL9wdAtiTrWfjiEodAsI_vcD1m1dUvp6koTfrKvnP4gOymP-JSDYpHVJKjWQXQ0ePNTj1MmEAJQ8Wo=s1600)
+![img](/img/quicknode/faucet.png)
 
 ## Step 5: Deploying our contract
 --------------------
@@ -163,7 +163,7 @@ Before deploying the contract, we need to compile it using:
 brownie compile
 ```
 
-![img](https://lh4.googleusercontent.com/AqxeplHn6FNPchw8EwgsyCkQuQhiqoEe8X7jUXLm8KKQvH3yCTRcUJ5j7cnU_eVntoRF0fbWXKda2Ad7Sr8KjjWJbdGRtXgDltdhb9nBeaqVoyaLvDUfVd3fTTEAFpJlwEHHByoI)
+![img](/img/quicknode/brownie-compile.png)
 
 Now open the **scripts/token.py** in your text editor, and make the following changes:
 
@@ -193,11 +193,11 @@ brownie run token.py --network matic_mumbai
 
 matic_mumbai is the name of the custom network which we created earlier. The prompt will ask you for the password which we set earlier while making the account. After running the above command, you must get the transaction hash, and Brownie will wait for the transaction to get confirmed. Once the transaction is confirmed, it will return the address at which our contract is deployed on the Polygon Mumbai testnet.
 
-![img](https://lh4.googleusercontent.com/-5YsXvupHFSOf7p1apOy6RwhqD7hYAoj5E-sXBSZ4C0xwofMFJ2XZnuCcrGtqhr7srH1HDY-eHVXz8yGQxnsdxNgzFeb26sj22sjUXsqXQxa_9FvKbo1OmvQLbSEVGJdxCgDNkEe)
+![img](/img/quicknode/brownie-run.png)
 
 You can check out the deployed contract by copy-pasting the contract address at [Polygonscan Mumbai](https://mumbai.polygonscan.com/).
 
-![img](https://lh5.googleusercontent.com/2cchxBugZcogWUHDWHvAp_xJif8ALdhLjrUaFgo6XZat5nm20U5PcGdGDqeX_5Jdt6w5SNnemOH8lnVGzHApLJ5ML6fHVS-spZx6BBEPb0eIUivMfPHI2AvPpTXUKCITt3g5NM3s)
+![img](/img/quicknode/polygonscan.png)
 
 ## Step 6: Testing our contract
 
