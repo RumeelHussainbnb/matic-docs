@@ -199,11 +199,11 @@ You can check out the deployed contract by copy-pasting the contract address at 
 
 ![img](/img/quicknode/polygonscan.png)
 
-## Step 6: Testing our contract
+## Step 6: Testing the contract
 
 Brownie also offers the option of testing smart contracts functionalities. It uses the `pytest` framework to easily generate unit tests. You can find more information about writing tests on Bronwnie [on their documentation](https://eth-brownie.readthedocs.io/en/latest/tests-pytest-intro.html#). 
 
-**So this is how contracts are deployed on Polygon using Brownie and QuickNode.**
+**This is how contracts are deployed on Polygon using Brownie and QuickNode.**
 
 QuickNode, just like Polygon, has always had an education-first approach providing developer [guides](https://www.quicknode.com/guides?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [docs](https://www.quicknode.com/docs/polygon?utm_source=polygon_docs&utm_campaign=ploygon_docs_contract_guide), [tutorial videos](https://www.youtube.com/channel/UC3lhedwc0EISreYiYtQ-Gjg/videos) and a [community of #web3 developers](https://discord.gg/DkdgEqE) who are eager to help each other.
 
