@@ -937,6 +937,7 @@ Address of the gRPC API. Default: `127.0.0.1:9632`.
 | ibft propose                | Proposes a new candidate to be added/removed from the validator set        |
 | ibft status                | Returns the overall status of the IBFT client   |
 | ibft switch                | Add fork configurations into genesis.json file to switch IBFT type |
+| ibft quorum                | Specifies the block number after which the optimal quorum size method will be used for reaching consensus |
 
 
 <h3>ibft snapshot flags</h3>
@@ -1188,6 +1189,27 @@ This number cannot exceed the value of max-validator-count.
 Defaults to 1.
 
 Specifies the beginning height of the fork.
+
+---
+
+<h3>ibft quorum flags</h3>
+
+<h4><i>from</i></h4>
+
+<Tabs>
+  <TabItem value="syntax" label="Syntax" default>
+
+    ibft quorum --from [your_quorum_switch_block_num]
+
+  </TabItem>
+  <TabItem value="example" label="Example">
+
+    ibft quorum --from 350
+
+  </TabItem>
+</Tabs>
+
+The height to switch the quorum calculation.
 
 ### Transaction Pool Commands
 
