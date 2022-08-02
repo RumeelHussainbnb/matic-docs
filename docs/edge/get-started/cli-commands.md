@@ -1090,7 +1090,7 @@ Address of the gRPC API. Default: `127.0.0.1:9632`.
   </TabItem>
 </Tabs>
 
-Specifies the genesis file to update. Default: `test`.
+Specifies the genesis file to update. Default: `./genesis.json`.
 
 ---
 
