@@ -1179,7 +1179,7 @@ This number cannot exceed the value of MAX_SAFE_INTEGER (2^53 - 2).
   </TabItem>
   <TabItem value="example" label="Example">
 
-    bft switch --min-validator-count 4
+    ibft switch --min-validator-count 4
 
   </TabItem>
 </Tabs>
